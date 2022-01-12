@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="https://kit.fontawesome.com/e929564251.js" crossorigin="anonymous"></script>
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-form input,
+        button {
+            font-size: 1.3em;
+            margin-top: 15px;
+            padding-left: 10px;
+            border: 1px solid lightslategray;
+            border-radius: 5px;
+        }
+
+        .login-form button {
+            background-color: orange;
+            color: white;
+            font-weight: 700;
+            padding: 5px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            margin-left: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">order</a>
+                <a href="">About</a>
+                <a href=""> Contact</a>
+            </span>
+            <span><a href=""><i class="fas fa-user-alt"></i></a>
+                <a href=""><i class="fas fa-sign-out-alt"></i></a></span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form class="login-form" action="">
+            <h1>Login</h1>
+            <input type="email" name="email" id="" placeholder="Enter your email" required>
+            <input type="password" name="password" id="" placeholder="Enter Your Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
